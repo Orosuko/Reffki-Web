@@ -1,5 +1,6 @@
 body {
-    background-color: #212529;
+    background-color: #252525;
+    color: #fff;
 }
 
 .white-text {
@@ -15,5 +16,35 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-
+    font-size: larger;
 }
+
+.container-fluid {
+    padding: 0px;
+ }
+
+ .navbar-brand{
+     padding-left: 3%;
+ }
+
+ i{
+     color: #fff;
+     font-size: larger;
+     font-style: normal;
+     padding-right: 2%;
+ }
+
+ hr{
+     width: 100px;
+     height: 2px;
+     color: #fff;
+ }
+
+ h5{
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+
+ .logo-footer{
+     margin-top: 70%;
+ }
