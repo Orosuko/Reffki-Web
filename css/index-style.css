@@ -23,28 +23,32 @@ body {
     padding: 0px;
  }
 
- .navbar-brand{
-     padding-left: 3%;
- }
+.navbar-brand {
+    padding-left: 3%;
+}
 
- i{
-     color: #fff;
-     font-size: larger;
-     font-style: normal;
-     padding-right: 2%;
- }
+i {
+    color: #fff;
+    font-size: larger;
+    font-style: normal;
+    padding-right: 2%;
+}
 
- hr{
-     width: 100px;
-     height: 2px;
-     color: #fff;
- }
+hr {
+    width: 100px;
+    height: 2px;
+    color: #fff;
+}
 
- h5{
-     padding-top: 5%;
-     padding-bottom: 5%;
- }
+h5 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
- .logo-footer{
-     margin-top: 70%;
- }
+.logo-footer {
+    margin-top: 70%;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+}
