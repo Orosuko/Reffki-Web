@@ -29,9 +29,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
+
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">NARRATIVA</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NARRATIVA</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">COMERCIALES</a>
@@ -46,7 +50,7 @@
                             <a class="nav-link" href="/nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTÁCTENOS</a>
+                            <a class="nav-link" href="/contactenos.html">CONTÁCTENOS</a>
                         </li>
                     </ul>
                 </div>
@@ -117,7 +121,7 @@
                 <video width="100%" id = "video-narrativa" poster="images/poster-narrativa.png" playsinline controls >
                     <source src="videos/persigue-tus-suenos-h264.mp4" type="video/mp4" >
                 </video>
-                <div class="playpause"></div>
+                <div class="playpause"><i class="bi bi-play-circle"></i></div>
             </div>
         </div>
 
@@ -135,9 +139,12 @@
 
         <!--Video de Comerciales-->
         <div class="container-fluid">
-            <video width="100%" id = "video-comercial" poster="images/poster-comercial.png" controls playsinline >
-                <source src="videos/video-comercial.mp4" type="video/mp4" >
-            </video>
+            <div class="contenedor2">
+                <video width="100%" id = "video-comercial" poster="images/poster-comercial.png" controls playsinline >
+                    <source src="videos/video-comercial.mp4" type="video/mp4" >
+                </video>
+                <div class="playpause2"><i class="bi bi-play-circle"></i></div>
+            </div>
         </div>
 
          <!--marcas con las que han colaborado-->
@@ -164,9 +171,12 @@
 
          <!--Video musical-->
          <div class="container-fluid">
-            <video width="100%" id = "video-musical" poster="images/poster-musical.png" controls playsinline >
-                <source src="videos/video-musical.mp4" type="video/mp4" >
-            </video>
+             <div class="contenedor3">
+                <video width="100%" id = "video-musical" poster="images/poster-musical.png" controls playsinline >
+                    <source src="videos/video-musical.mp4" type="video/mp4" >
+                </video>
+                <div class="playpause3"><i class="bi bi-play-circle"></i></div>
+             </div>
         </div>
 
         <!--texto debajo de video musical-->
@@ -182,7 +192,7 @@
         </div>
 
         <!-- Footer de la pagina -->
-        <footer class="page-footer bg-dark">
+        <footer class="page-footer">
          
             <div class="container text-start text-md-left mt-5">
                 <div class="row">
