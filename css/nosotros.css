@@ -12,6 +12,41 @@ body {
     background-color: #000 !important;
 }
 
+#landscape{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+#texto-imagen{
+    position: absolute;
+    top:50%;
+    left: 6%;
+    width: 100%;
+    height: 100%;
+}
+
+#texto-imagen h2{
+    font-size: 2.5rem;
+    font-weight: 700%;
+    letter-spacing: 0.2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    color: rgba( 255, 255, 255, 0.85);
+}
+
+#texto-imagen h5{
+    text-shadow: .1rem .1rem .8rem black;
+    color: rgba( 255, 255, 255, 0.8);
+    font-weight: 700%;
+    letter-spacing: 0.2rem;
+}
+
+#contenedor-landscape{
+    position: relative;
+}
+
+
 .container-fluid {
     padding: 0px;
  }

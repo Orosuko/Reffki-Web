@@ -216,7 +216,7 @@ footer{
         width:20%;
         height:20%;
         position:absolute;
-        left:0%;
+        left:9%;
         right:0%;
         top:0%;
         bottom:15%;
@@ -243,7 +243,7 @@ footer{
         width:20%;
         height:20%;
         position:absolute;
-        left:0%;
+        left:9%;
         right:0%;
         top:0%;
         bottom:15%;
@@ -270,7 +270,7 @@ footer{
         width:20%;
         height:20%;
         position:absolute;
-        left:0%;
+        left:9%;
         right:0%;
         top:0%;
         bottom:15%;
@@ -285,6 +285,39 @@ footer{
         right:0%;
         top:0%;
         bottom:0%;
+    }
+
+    #fotografia{
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 10px;
+    }
+
+    #contenedor-foto{
+        position: relative;
+    }
+
+    #contenedor-foto h1{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        font-size: 8rem;
+        text-shadow: .1rem .1rem .5rem black;
+        padding-bottom: 1.6rem;
+        color: rgba( 255, 255, 255, 0.85);
+    }
+
+    #boton-foto{
+        position: absolute;
+        top: 50%;
+        left: 39%;
+        border-width: medium;
+        border-radius: 0%;
+        font-size: 4rem;
+        padding: 0.1rem 0.7rem ;
+        margin-bottom: 2%;
+        text-shadow: .1rem .1rem .5rem black;
     }
 
     @media (max-width: 768px){
