@@ -99,6 +99,11 @@ body {
     padding-bottom: 5%;
 }
 
+#flickr{
+    width: 20px;
+    height: auto;
+}
+
 .logo-footer {
     margin-top: 70%;
 }

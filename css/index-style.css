@@ -77,6 +77,11 @@ footer{
     background-color: #101010;
 }
 
+#flickr{
+    width: 20px;
+    height: auto;
+}
+
 .list-unstyled li a {
     text-decoration: none;
 }
@@ -101,9 +106,9 @@ footer{
 .caption h2{
     font-size: 2.5rem;
     font-weight: 700%;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     color: rgba( 255, 255, 255, 0.85);
 }
 
@@ -119,6 +124,7 @@ footer{
     border-radius: 0%;
     font-size: 1.1rem;
     padding: 0.6rem 1.3rem ;
+    margin-top: 2rem;
 }
 
 #boton-marcas{
@@ -287,9 +293,7 @@ footer{
         bottom:0%;
     }
 
-    #fotografia{
-        width: 100%;
-        height: auto;
+    #carouselExampleIndicators{
         background: #fff;
         padding: 10px;
     }
@@ -315,9 +319,16 @@ footer{
         border-width: medium;
         border-radius: 0%;
         font-size: 4rem;
-        padding: 0.1rem 0.7rem ;
+        padding: 0 0.5rem ;
         margin-bottom: 2%;
-        text-shadow: .1rem .1rem .5rem black;
+    }
+
+    #numeros h1{
+        font-size: 5rem;
+    }
+
+    #numeros .row p{
+        font-size: 1.5rem;
     }
 
     @media (max-width: 768px){

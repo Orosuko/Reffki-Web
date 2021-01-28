@@ -52,6 +52,11 @@ footer{
     background-color: #101010;
 }
 
+#flickr{
+    width: 20px;
+    height: auto;
+}
+
 .list-unstyled li a {
     text-decoration: none;
 }
@@ -71,4 +76,9 @@ footer{
 
 #terminos label{
     color: #fff !important;
+}
+
+#foto-crew{
+    width: 90%;
+    height: auto;
 }

@@ -63,6 +63,11 @@ footer{
     width: 100%;
 }
 
+#flickr{
+    width: 20px;
+    height: auto;
+}
+
 .list-unstyled li a {
     text-decoration: none;
 }
