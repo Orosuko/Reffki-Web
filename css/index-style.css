@@ -135,6 +135,23 @@ footer{
     padding: 0.6rem 1.3rem ;
 }
 
+#botones-videos{
+    border-width: medium;
+    border-radius: 0%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0.6rem 1.3rem ;
+}
+
+#contenedor-videos{
+    width: 100%;
+    height: auto;
+}
+
+#seccion-videos{
+    width: 100%;
+}
+
 .container-fluid .container p{
     margin-top: 2%;
 }
@@ -211,88 +228,6 @@ footer{
       transition: 1s opacity;
     }
 
-
-    .contenedor{
-        display:table;
-        width:auto;
-        position:relative;
-        width:100%;
-    }
-    .playpause {
-        width:20%;
-        height:20%;
-        position:absolute;
-        left:9%;
-        right:0%;
-        top:0%;
-        bottom:15%;
-        margin:auto;
-    }
-    .playpause i{
-        width: 100%;
-        height: auto;
-        font-size: 10rem;
-        position:absolute;
-        left:0%;
-        right:0%;
-        top:0%;
-        bottom:0%;
-    }
-
-    .contenedor2{
-        display:table;
-        width:auto;
-        position:relative;
-        width:100%;
-    }
-    .playpause2 {
-        width:20%;
-        height:20%;
-        position:absolute;
-        left:9%;
-        right:0%;
-        top:0%;
-        bottom:15%;
-        margin:auto;
-    }
-    .playpause2 i{
-        width: 100%;
-        height: auto;
-        font-size: 10rem;
-        position:absolute;
-        left:0%;
-        right:0%;
-        top:0%;
-        bottom:0%;
-    }
-
-    .contenedor3{
-        display:table;
-        width:auto;
-        position:relative;
-        width:100%;
-    }
-    .playpause3 {
-        width:20%;
-        height:20%;
-        position:absolute;
-        left:9%;
-        right:0%;
-        top:0%;
-        bottom:15%;
-        margin:auto;
-    }
-    .playpause3 i{
-        width: 100%;
-        height: auto;
-        font-size: 10rem;
-        position:absolute;
-        left:0%;
-        right:0%;
-        top:0%;
-        bottom:0%;
-    }
-
     #carouselExampleIndicators{
         background: #fff;
         padding: 10px;
@@ -305,7 +240,7 @@ footer{
     #contenedor-foto h1{
         position: absolute;
         top: 30%;
-        left: 30%;
+        width: 100%;
         font-size: 8rem;
         text-shadow: .1rem .1rem .5rem black;
         padding-bottom: 1.6rem;
@@ -315,12 +250,16 @@ footer{
     #boton-foto{
         position: absolute;
         top: 50%;
-        left: 39%;
+        left: 37%;
+        right: 37%;
         border-width: medium;
         border-radius: 0%;
         font-size: 4rem;
         padding: 0 0.5rem ;
         margin-bottom: 2%;
+    }
+    #texto-fotografia{
+        width: 100%;
     }
 
     #numeros h1{
@@ -344,6 +283,16 @@ footer{
         }
         
         .btn-lg{
+            font-size: 0.75rem;
+            padding: 0.3rem 0.55rem ;
+        }
+
+        #contenedor-foto h1{
+            font-size: 1.6rem;
+            letter-spacing: 0.1rem;
+            padding-bottom: 0.5rem;
+        }
+        #boton-foto{
             font-size: 0.75rem;
             padding: 0.3rem 0.55rem ;
         }

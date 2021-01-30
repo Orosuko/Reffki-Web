@@ -44,7 +44,7 @@
                             <a class="nav-link" href="/music.html">VIDEOCLIPS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GALERÍA</a>
+                            <a class="nav-link" href="/galeria.html">GALERÍA</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/nosotros.html">NOSOTROS</a>
@@ -116,37 +116,63 @@
         </div>
        </div>
 
-       <!--Video de narrativa-->
-        <div class="container-fluid">
-            <div class="contenedor">
-                <video width="100%" id = "video-narrativa" poster="images/poster-narrativa.png" playsinline controls >
-                    <source src="videos/persigue-tus-suenos-h264.mp4" type="video/mp4" >
-                </video>
-                <div class="playpause"><i class="bi bi-play-circle"></i></div>
+       <!--VIdeos-->
+        <div class="container-fluid pt-4">
+            <div class="px-5">
+                <div class="row">
+                    <div class="col-md">
+                        <div id="contenedor-videos" class="container-fluid">
+                            <!--Video de narrativa-->
+                            <iframe id="seccion-videos" title="vimeo-player" src="https://player.vimeo.com/video/505827050" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <!--texto a un lado de video Narrativa-->
+                        <h1>Producción audiovisual de REFFKI films</h1>
+                        <h4 class="py-2">¿Aventurero, informativo, entretenimiento? </h4>
+                        <p class="fs-5">Tú decides cómo y nosotros contamos tu historia, tan convincente que el público sentirá que 
+                        es parte de ella.<br> Nos involucramos con ideas e historias para convertir sueños realidad.
+                        </p>
+                        <a id="botones-videos" class="btn btn-outline-light btn-lg mt-4" href="#">Contemos tu historia</a>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-md">
+                        <h1>De espectadores a FANS...</h1>
+                        <h4 class="py-2">Creamos comerciales que destaquen los valores de tu marca para: </h4>
+                        <p class="fs-5">
+                            <i class="bi bi-dot"></i>Sacudir las redes sociales <br>
+                            <i class="bi bi-dot"></i>Empatizar con la audiencia<br>
+                            <i class="bi bi-dot"></i>Conectar con tus clientes potenciales                            
+                        </p>
+                        <a id="botones-videos" class="btn btn-outline-light btn-lg mt-4" href="#">Impulsa tu marca</a>
+                    </div>
+                    <div class="col-md">
+                        <!--Video de Comerciales-->
+                        <iframe id="seccion-videos" title="vimeo-player" src="https://player.vimeo.com/video/505791798" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-md">
+                        <!--video musical-->
+                        <iframe id="seccion-videos" title="vimeo-player" src="https://player.vimeo.com/video/383404189" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md">
+                        <!--texto a un lado de video musical-->
+                        <h1>Explota tu potencial con REFFKI films</h1>
+                        <h4 class="py-3">Crea un cortometraje musical para tu proyecto sonoro. </h4>
+                        <p class="fs-5">Trabajemos de la mano para desarrollar una producción que desafíe las propuestas actuales,<br> 
+                         plasmemos esa canción en una pieza audiovisual y démosle un estilo único.
+                        </p>
+                        <a id="botones-videos" class="btn btn-outline-light btn-lg mt-4" href="#">Alcanza tus sueños</a>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-        <!--texto debajo de video Narrativa-->
-        <div class="container-fluid text-start bg-dark">
-            <div class="container">
-                 <h1>Producción audiovisual de REFFKI films</h1>
-                 <h4>¿Aventurero, informativo, entretenimiento? </h4>
-                 <p class="fs-5">Tú decides cómo y nosotros contamos tu historia, tan convincente que el público sentirá que 
-                    es parte de ella.<br> Nos involucramos con ideas e historias para convertir sueños realidad.
-                 </p>
-                 <a class="btn btn-outline-light btn-lg" href="#">Contemos tu historia</a>
-            </div>
-        </div>
-
-        <!--Video de Comerciales-->
-        <div class="container-fluid">
-            <div class="contenedor2">
-                <video width="100%" id = "video-comercial" poster="images/poster-comercial.png" controls playsinline >
-                    <source src="videos/video-comercial.mp4" type="video/mp4" >
-                </video>
-                <div class="playpause2"><i class="bi bi-play-circle"></i></div>
-            </div>
-        </div>
 
          <!--marcas con las que han colaborado-->
          <div class="container-fluid text-center bg-white">
@@ -170,27 +196,6 @@
             </div>
         </div>
 
-         <!--Video musical-->
-         <div class="container-fluid">
-             <div class="contenedor3">
-                <video width="100%" id = "video-musical" poster="images/poster-musical.png" controls playsinline >
-                    <source src="videos/video-musical.mp4" type="video/mp4" >
-                </video>
-                <div class="playpause3"><i class="bi bi-play-circle"></i></div>
-             </div>
-        </div>
-
-        <!--texto debajo de video musical-->
-        <div class="container-fluid text-start bg-dark">
-            <div class="container">
-                 <h1>Explota tu potencial con REFFKI films</h1>
-                 <h4>Crea un cortometraje musical para tu proyecto sonoro. </h4>
-                 <p class="fs-5">Trabajemos de la mano para desarrollar una producción que desafíe las propuestas actuales,<br> 
-                     plasmemos esa canción en una pieza audiovisual y démosle un estilo único.
-                 </p>
-                 <a class="btn btn-outline-light btn-lg" href="#">Colaboremos</a>
-            </div>
-        </div>
 
         <!--Fotografía-->
         <div id="contenedor-foto" class="container-fluid">
@@ -218,9 +223,11 @@
                   <span class="visually-hidden">Next</span>
                 </a>
               </div>
-
-            <h1>Fotografía</h1>
-            <a id="boton-foto" class="btn btn-outline-light btn-lg" href="#">Ver galería</a>
+              <div id="texto-fotografia" class="text-center">
+                <h1>Fotografía</h1>
+                <a id="boton-foto" class="btn btn-outline-light btn-lg" href="#">Ver galería</a>
+              </div>
+            
         </div>
 
         <!--Numeros-->
@@ -264,7 +271,7 @@
                         <h5 class="font-weigth-bold text-white">Enlaces</h5>
                         <ul class="list-unstyled">
                             <li class="my-2"><a href="#" class="link-light">Página principal</a></li>
-                            <li class="my-2"><a href="#" class="link-light">Galería</a></li>
+                            <li class="my-2"><a href="/galeria.html" class="link-light">Galería</a></li>
                             <li class="my-2"><a href="/nosotros.html" class="link-light">Nosotros</a></li>
                             <li class="my-2"><a href="/contactenos.html" class="link-light">Contáctenos</a></li>
                             <li class="my-2"><a href="#" class="link-light">Aviso de privacidad</a></li>
