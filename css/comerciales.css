@@ -42,6 +42,15 @@ body {
     margin-right: 0px!important;
     }
 
+    #contenedor-videos{
+        width: 100%;
+        height: auto;
+    }
+    
+    #seccion-videos{
+        width: 100%;
+    }
+
 .page-footer i {
     color: #fff;
     font-size: larger;

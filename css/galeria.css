@@ -68,6 +68,14 @@ footer{
     height: auto;
 }
 
+#boton-flickr{
+  border-width: medium;
+  border-radius: 0%;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.7rem ;
+  margin-bottom: 2%;
+}
+
 .list-unstyled li a {
     text-decoration: none;
 }
