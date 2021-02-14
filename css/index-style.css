@@ -143,6 +143,26 @@ footer{
     padding: 0.6rem 1.3rem ;
 }
 
+#contenedor-final{
+    position: relative;
+}
+
+#boton-final{
+    border-width: medium;
+    border-radius: 0%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.6rem 1.3rem ;
+}
+
+#texto-final{
+    font-size: xx-large;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    
+}
+
 #contenedor-videos{
     width: 100%;
     height: auto;

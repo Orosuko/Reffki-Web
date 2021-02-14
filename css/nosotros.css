@@ -21,13 +21,12 @@ body {
 #texto-imagen{
     position: absolute;
     top:40%;
-    left: 6%;
     width: 100%;
     height: 100%;
 }
 
 #texto-imagen h2{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700%;
     letter-spacing: 0.2rem;
     text-shadow: .1rem .1rem .8rem black;
@@ -120,7 +119,7 @@ body {
 .card{
     position: relative;
     overflow: hidden;
-    width: 80%;  
+    width: 100%;    
 }
 
 .card:before{
@@ -170,9 +169,13 @@ body {
 #boton-listo{
     border-width: medium;
     border-radius: 0%;
-    font-size: 1.5rem;
+    font-size: xx-large;
     padding: 0.3rem 0.7rem ;
-    margin-top: 3%;
     position: relative;
-    right: 3%;
+}
+
+@media (max-width: 768px){
+    #texto-imagen h2,h5{
+        font-size: large;
+    }
 }

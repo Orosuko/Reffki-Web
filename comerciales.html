@@ -21,7 +21,7 @@
             <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/index.html">
                     <!-- Logo Reffki -->
                     <img src="images/logo.png" alt="" width="75" height="60">
                 </a>
@@ -57,15 +57,30 @@
             </div>
         </nav>
             
-         <!--Imagen con texto-->
+         <!--Carrusel con texto-->
          <div id="contenedor-portada" class="container-fluid">
-            <img src="/images/galeria/54.jpg" alt="imagen">
-            <div id="texto-imagen" class="container text-center">
+
+            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="/images/galeria/54.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="7000">
+                    <img src="/images/galeria/79.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="7000">
+                    <img src="/images/galeria/9.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            
+            <div id="texto-imagen" class="text-center">
                 <h2 class="fw-normal">IMPULSANDO TU MARCA.</h2>
                 
             </div>
         </div>
 
+        <!--Texto debajo de imagen-->
         <div class="container text-start mt-4">
             <h1>Comerciales</h1>
             <h4 class="mt-2 mb-4">Creamos comerciales que destaquen los valores de 
@@ -83,12 +98,15 @@
                 <div class="row">
                     <div class="col-md">
                         <div id="contenedor-videos" class="container-fluid">
-                            <!--Video de narrativa-->
-                            <iframe id="seccion-videos" title="vimeo-player" src="https://player.vimeo.com/video/505827050" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                            <!--Video de marca-->
+                            <div style="padding:56.25% 0 0 0;position:relative;">
+                                <iframe src="https://player.vimeo.com/video/505791798?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md">
-                        <!--texto a un lado de video Narrativa-->
+                        <!--texto a un lado de video de marca-->
                         <h1>Brand video</h1>
                         <h4 class="py-2">Creamos comerciales que destaquen los valores de tu marca para: </h4>
                         <p class="fs-4">
@@ -114,17 +132,38 @@
                     </div>
                 </div>
 
-                <div class="row py-5">
+                <div class="row pt-5">
                     <div class="col-md">
-                        <!--video musical-->
-                        <iframe id="seccion-videos" title="vimeo-player" src="https://player.vimeo.com/video/383404189" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                        <!--video de social media-->
+                        <div style="padding:56.25% 0 0 0;position:relative;">
+                            <iframe src="https://player.vimeo.com/video/510862262?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
                     <div class="col-md ms-4">
-                        <!--texto a un lado de video musical-->
+                        <!--texto a un lado de video de social media-->
                         <h1>Social media video</h1>
                         <h4 class="py-3">Las redes sociales son el canal perfecto para viralizar tu contenido.  </h4>
                         <p class="fs-5">Contamos con estrategias audaces y creativas de trabajo para que esa visualización se convierta en un cliente frecuente de tu negocio.
                         </p>
+                    </div>
+
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-md ms-4 text-end mt-3">
+                         <!--texto a un lado de video de social media-->
+                         <h1>Real State video</h1>
+                         <h4 class="py-3">Haz que tu propiedad llegue a los ojos de posibles compradores</h4>
+                         <p class="fs-5"> Texto largo para Real state
+                         </p>
+                    </div>
+                    <div class="col-md">
+                        <!--video de Real state-->
+                        <div style="padding:56.25% 0 0 0;position:relative;">
+                            <iframe src="https://player.vimeo.com/video/510836056?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
 
                 </div>
