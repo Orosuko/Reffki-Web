@@ -1,5 +1,5 @@
 body {
-    background-color: #252525;
+    background-color: #000;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -98,13 +98,17 @@ body {
     padding-bottom: 5%;
 }
 
+footer{
+    background-color: #101010;
+}
+
 #flickr{
     width: 20px;
     height: auto;
 }
 
-.logo-footer {
-    margin-top: 70%;
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins";
 }
 
 .list-unstyled li a {
