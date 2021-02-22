@@ -111,3 +111,17 @@ footer{
     padding-right: 15%;
     padding-bottom: 3%;
 }
+
+
+@media (max-width: 768px){
+    
+    #contenedor-portada #texto-imagen  h2{
+        font-size: 1.5rem;
+    }
+
+    #texto-imagen{
+        position: absolute;
+        width: 100%;
+        top: 45%;
+    }
+}
