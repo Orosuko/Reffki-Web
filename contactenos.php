@@ -44,7 +44,7 @@
     
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="/contactenos.css">
+        <link rel="stylesheet" href="css/contactenos.css">
         <!-- Iconos de Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
@@ -106,7 +106,7 @@
 
                 <div class="row mt-5">
                     <div class="col-md-6">
-                        <img id="foto-crew" class="img-responsive" src="/images/crew.jpg" alt="Imagen que no me han pasado hdsptm">
+                        <img id="foto-crew" class="img-responsive" src="/images/crew.jpg" alt="Imagen de los 3">
                     </div>
                     <div class="col-md-6 pt-2">
                         <h2>Contacto</h2>
@@ -138,17 +138,17 @@
                             <form action="contactenos.php" method="POST" class="pe-5">
 
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                                     <label for="floatingInput">Nombre</label>
                                   </div>
 
                                 <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="correo" name="correo" placeholder="name@example.com">
+                                    <input type="email" class="form-control" id="correo" name="correo" placeholder="name@example.com" required>
                                     <label for="floatingInput">Correo electronico</label>
                                   </div>
 
                                   <div class="form-floating mb-3">
-                                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="322 555 5555">
+                                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="322 555 5555" required>
                                     <label for="floatingInput">Teléfono</label>
                                   </div>
 
@@ -164,7 +164,7 @@
                                   </div>
 
                                   <div class="form-floating mb-3">
-                                    <textarea class="form-control" placeholder="Describenos tu proyecto" id="descripcion" name="descripcion" style="height: 150px"></textarea>
+                                    <textarea class="form-control" placeholder="Describenos tu proyecto" id="descripcion" name="descripcion" style="height: 150px" required></textarea>
                                     <label for="floatingTextarea2">Describenos tu proyecto</label>
                                   </div>
   
@@ -219,7 +219,7 @@
                             <li class="my-2"><a href="/galeria.html" class="link-light">Galería</a></li>
                             <li class="my-2"><a href="/nosotros.html" class="link-light">Nosotros</a></li>
                             <li class="my-2"><a href="#" class="link-light">Contáctenos</a></li>
-                            <li class="my-2"><a href="#" class="link-light">Aviso de privacidad</a></li>
+                            <li class="my-2"><a href="/aviso.html" class="link-light">Aviso de privacidad</a></li>
                         </ul>
                     </div>
 
