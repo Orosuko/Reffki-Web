@@ -8,18 +8,6 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Poppins";
 }
 
-.white-text {
-    color: #fff;
-}
-
-.bg-dark {
-    background-color: #000 !important;
-}
-.bg-white{
-    background-color: #fff !important;
-}
-
-
 .container-fluid {
     padding: 0px;
  }
@@ -45,15 +33,7 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 0px!important;
     margin-right: 0px!important;
     }
-
-    #contenedor-videos{
-        width: 100%;
-        height: auto;
-    }
     
-    #seccion-videos{
-        width: 100%;
-    }
 
 .page-footer i {
     color: #fff;

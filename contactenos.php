@@ -12,7 +12,7 @@
             $presupuesto = $_POST['presupuesto'];
             $descripcion = $_POST['descripcion'];
 
-            $to = 'erickalejandropm117@gmail.com';
+            $to = 'reffkifilms@gmail.com';
             $subject = "Correo de REFFKIfilms.com";
             $body = "";
 
@@ -67,7 +67,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/index.html">
                         <!-- Logo Reffki -->
-                        <img src="images/logo.png" alt="" width="75" height="60">
+                        <img src="images/logo.png" alt="" width="55" height="45">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -101,6 +101,7 @@
                 </div>
             </nav>
 
+            <!--Foto de los 3 y datos de contacto-->
             <div class="container my-5"> 
                 <h1 id="titulo" class="pt-5">Llevamos tu producto o servicio al siguiente nivel.</h1>
 
@@ -116,11 +117,12 @@
                 </div>
             </div>
 
+            <!--formulario y foto-->
             <div class="container-fluid bg-dark pt-1 pb-5">
                 <div class="container">
                     <div class="row mt-5">
 
-                        <div class="col-md-6">
+                        <div class="col-md-6" id="form-anchor">
 
                         <?php
                          if($message_sent):
@@ -135,7 +137,7 @@
                             <h2 class="py-2">Cuentanos sobre tu proyecto</h2>
                             
                             <!--formulario-->
-                            <form action="contactenos.php" method="POST" class="pe-5">
+                            <form action="contactenos.php#form-anchor" method="POST" class="pe-2" >
 
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
@@ -168,7 +170,7 @@
                                     <label for="floatingTextarea2">Describenos tu proyecto</label>
                                   </div>
   
-                                  <p>Al presionar "Enviar" estoy de acuerdo con el Aviso de privacidad</p>
+                                  <p>Al presionar "Enviar" estoy de acuerdo con el Aviso de privacidad.</p>
 
                                   <button id="boton-form" type="submit" class="btn btn-dark px-2"> Enviar </button>
 

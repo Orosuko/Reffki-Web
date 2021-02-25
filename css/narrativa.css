@@ -109,8 +109,8 @@ footer{
 
 @media (max-width: 768px){
     
-    #contenedor-portada #texto-imagen  h2{
-        font-size: 1.5rem;
+    #contenedor-portada #texto-imagen h2{
+        font-size: 1.3rem;
     }
 
     #texto-imagen{
