@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
  <head>
 
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>REFFKI films | Videoclips</title>
+     <title>REFFKI films | Music</title>
     
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -31,25 +32,22 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
                     <!-- Logo Reffki -->
-                    <img src="images/logo.png" alt="" width="55" height="45">
+                    <img src="images/reffki-music-logo.png" alt="" width="70" height="45">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link"  href="/index.html">HOME</a>
+                            <a class="nav-link"  href="/index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/narrativa.html">STORYTELLING</a>
+                            <a class="nav-link" href="/narrativa.html">FILMS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/comerciales.html">PUBLICIDAD</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">VIDEOCLIPS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/galeria.html">GALERÍA</a>
@@ -60,39 +58,41 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/contactenos.php">CONTÁCTENOS</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">REFFKI MUSIC</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-            
-         <!--Carrusel con texto-->
-         <div id="contenedor-portada" class="container-fluid">
-            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="7000">
-                    <img src="/images/portada-music.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="7000">
-                    <img src="/images/portada-music-2.jpg" class="d-block w-100" alt="...">
-                  </div>
+
+          <!--Video insignia-->
+       <div class="video-background">
+            <div class="video-wrap">
+                <div id="video">
+                    <video id = "video-reel" autoplay loop muted playsinline>
+                        <source src="/videos/reel-music_Trim.mp4" type="video/mp4" >
+                    </video>
                 </div>
-              </div>
-            <div id="texto-imagen" class="text-center">
-                <h2 class="fw-normal">TRANSMITIENDO EMOCIONES.</h2>
-                
             </div>
         </div>
-
-        <!--texto debajo de imagen-->
+    
+    <!--texto encima del video-->
+    <div class="caption text-center">
+        <h2>GENERANDO EMOCIONES</h2>
+    </div>
+            
+        <!--texto debajo de video-->
         <div class="container text-start my-4">
-            <h1>Video clips</h1>
-            <h4 class="mt-2 mb-4">Nos apasiona crear tendencias que causen impacto.</h4>
+            <h1>REFFKI music</h1>
+            <h4 class="my-3">Nos apasiona crear tendencias que causen impacto.</h4>
             <p class="fs-5">Crea un cortometraje musical para tu proyecto sonoro, trabajemos de la mano para desarrollar una producción que 
                 desafíe las propuestas actuales, plasmemos esa canción en una pieza audiovisual y démosle un estilo único.</p>
         </div>
 
 
         <!--carrusel de videos-->
+        <h1 class="text-center mt-5 mb-3">DJ The Giver</h1>
           <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
             <ol class="carousel-indicators">
               <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -124,11 +124,36 @@
             </a>
           </div>
 
-        
+        <!--Villax-->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-9">
+                    <h1 class="text-center mt-5 mb-3">Villax - No confío</h1>
+                    <div style="padding:56.25% 0 0 0;position:relative;">
+                        <iframe src="https://www.youtube.com/embed/QAEsdRtjA48" style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="container-fluid text-center my-5">
-            <h1>¿Listo para trabajar juntos?</h1>
-            <a id="boton" class="btn btn-outline-light btn-lg mt-2" href="/contactenos.php">Hagamos algo increíble</a>
+        <!--Carrusel con imagenes-->
+        <div id="contenedor-portada" class="container-fluid">
+            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="/images/arrecypher.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="7000">
+                    <img src="/images/portada-music-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            <div id="texto-imagen" class="text-center">
+                <h2 class="fw-normal">¿Listo para trabajar juntos?</h2>
+                <a id="boton" class="btn btn-outline-light btn-lg mt-2" href="/contactenos.php">Hagamos algo increíble</a>
+            </div>
         </div>
 
            <!--footer de la pagina-->
@@ -142,7 +167,7 @@
                         <h5 class="font-weigth-bold text-white">Síguenos</h5>
                         <ul class="list-unstyled">
                             <li class="my-2"><a href="https://www.facebook.com/ReffkiFilms" class="link-light"><i class="bi bi-facebook"></i>Reffki Films</a></li>
-                            <li class="my-2"><a href="https://www.instagram.com/reffkifilms" class="link-light"><i class="bi bi-instagram"></i>@reffkifilms</a></li>
+                            <li class="my-2"><a href="https://www.instagram.com/reffkimusic" class="link-light"><i class="bi bi-instagram"></i>@reffkimusic</a></li>
                             <li class="my-2"><a href="https://www.youtube.com/user/NanoyAndreVlogs" class="link-light"><i class="bi bi-youtube"></i>REFFKI FILMS</a></li>
                             <li class="my-2"><a href="https://www.flickr.com/photos/191444841@N04/" class="link-light"><img id="flickr" src="/images/flickr.png"> Reffki Films</a></li>
                         </ul>
@@ -173,7 +198,7 @@
                     <!-- Logo Reffki -->
                     <div class="col-md-1 mx-auto py-5">
                         <div class="text-center">
-                            <img src="images/logo.png" class="logo-footer" alt="LOGO" width="90" height="70">
+                            <img src="images/reffki-music-logo.png" class="logo-footer" alt="LOGO" width="90" height="55">
                         </div> 
                     </div>
 

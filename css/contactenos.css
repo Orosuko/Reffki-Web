@@ -101,6 +101,7 @@ footer{
     font-size:30px;
     z-index:100;
     opacity: 0.7;
+    transition: 0.5s;
   }
 
   #whatsapp:hover{
@@ -112,5 +113,5 @@ footer{
   .bi-whatsapp {
     position: relative;
     width: 100%;
-    top: 5%;
+    vertical-align: middle;
   }

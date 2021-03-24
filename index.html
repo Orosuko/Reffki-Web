@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>REFFKI Films</title>
 
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+     <link rel="stylesheet" href="/css/index-style.css">
+     <!-- Iconos de Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
     <!--iconos-->
     <link rel="icon" href="/images/icons/favicon-16x16.png">
     <link rel="icon" href="/images/icons/favicon-32x32.png">
     <link rel="icon" href="/images/icons/android-chrome-192x192.png">
     <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index-style.css">
-    <!-- Iconos de Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
 </head>
 
@@ -32,23 +32,20 @@
                     <!-- Logo Reffki -->
                     <img src="images/logo.png" alt="" width="55" height="45">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/narrativa.html">STORYTELLING</a>
+                            <a class="nav-link" href="/narrativa.html">FILMS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/comerciales.html">PUBLICIDAD</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/music.html">VIDEOCLIPS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/galeria.html">GALERÍA</a>
@@ -58,6 +55,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contactenos.php">CONTÁCTENOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/music.html">REFFKI MUSIC</a>
                         </li>
                     </ul>
                 </div>
@@ -78,22 +78,30 @@
        
        <!--texto encima del video-->
        <div class="caption text-center">
-           <h4>En todo; verdad, intención y corazón.</h4>
            <h2>CONTANDO HISTORIAS</h2>
-           <h2>TRANSMITIENDO EMOCIONES</h2>
+           <h2>GENERANDO EMOCIONES</h2>
            <h2>IMPULSANDO TU MARCA</h2>
            <a class="btn btn-outline-light btn-lg" href="/contactenos.php">Hagamos cosas increíbles</a>
        </div>
 
-        <!--Texto y boton debajo del primer video-->
-       <div class="container-fluid text-start py-2">
-           <div class="container">
-                <h1>REFFKI films</h1>
-                <h4>Llevamos tu producto o servicio al siguiente nivel.</h4>
-                <p class="fs-5">Nos une el espíritu por contar historias y nos comprometemos con proyectos que nos apasionan,<br>
-                    buscamos superar las metas y alcanzar los sueños en nuestros proyectos. 
-                </p>
-                <a class="btn btn-outline-light btn-lg" href="/nosotros.html">Leer mas...</a>
+        <!--Texto, boton y reel debajo del primer video-->
+       <div class="container-fluid text-center py-2">
+           <div class="container-fluid px-3">
+               <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-start pt-3">REFFKI films</h1>
+                    <h4 class="text-start py-2">Llevamos tu producto o servicio al siguiente nivel.</h4>
+                    <p class="fs-5 text-start">Nos une el espíritu por contar historias y nos comprometemos con proyectos que nos apasionan.
+                    </p>
+                    <a id="boton-reel" class="btn btn-outline-light btn-lg my-2 p-2" href="/nosotros.html">Leer mas...</a>
+                </div>
+                <div class="col-md-6">
+                    <div style="padding:56.25% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/510830481?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+               </div>
            </div>
        </div>
 
@@ -116,7 +124,7 @@
                 </div>
                 <!--Videos musicales-->
                 <div class="col-md-3 mx-auto mb-3">
-                    <a href="/music.html" class="link-dark"><i class="bi bi-music-note"></i><h2>Videoclips</h2></a>
+                    <a href="/music.html" class="link-dark"><i class="bi bi-music-note"></i><h2>REFFKI Music</h2></a>
                     <p> Crea un cortometraje musical para tu proyecto sonoro, trabajemos de la mano para desarrollar una producción que desafíe los estándares actuales.</p>
                 </div>
             </div>
@@ -131,18 +139,16 @@
                         <div id="contenedor-videos" class="container-fluid">
                             <!--Video de narrativa-->
                             <div style="padding:56.25% 0 0 0;position:relative;">
-                                <iframe src="https://player.vimeo.com/video/505827050?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/513149031?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                                </iframe>
                             </div>
-                           
                         </div>
                     </div>
                     <div class="col-md text-center">
                         <!--texto a un lado de video Narrativa-->
-                        <h1 class="text-start">Producción audiovisual de REFFKI films</h1>
+                        <h1 class="text-start pt-4">Narrativa</h1>
                         <h4 class="py-2 text-start">¿Aventurero, informativo, entretenimiento? </h4>
-                        <p class="fs-5 text-start">Tú decides cómo y nosotros contamos tu historia, tan convincente que el público sentirá que 
-                        es parte de ella.<br> Nos involucramos con ideas e historias para convertir sueños realidad.
-                        </p>
+                        <p class="fs-5 text-start"> Nos involucramos con ideas e historias para convertir sueños realidad.</p>
                         <a id="botones-videos" class="btn btn-outline-light btn-lg mt-4" href="/contactenos.php">Contemos tu historia</a>
                     </div>
                 </div>
@@ -156,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 order-sm-12  text-center">
-                        <h1 class="text-start">De espectadores a fans</h1>
+                        <h1 class="text-start pt-2">Publicidad</h1>
                         <h4 class="py-2 text-start">Creamos comerciales que destaquen los valores de tu marca para: </h4>
                         <p class="fs-5 text-start">
                             <i class="bi bi-dot"></i>Sacudir las redes sociales <br>
@@ -176,7 +182,7 @@
                     </div>
                     <div class="col-md text-center">
                         <!--texto a un lado de video musical-->
-                        <h1 class="text-start">Explota tu potencial con REFFKI films</h1>
+                        <h1 class="text-start">Reffki Music</h1>
                         <h4 class="py-3 text-start">Crea un cortometraje musical para tu proyecto sonoro. </h4>
                         <p class="fs-5 text-start">Trabajemos de la mano para desarrollar una producción que desafíe las propuestas actuales,
                          plasmemos esa canción en una pieza audiovisual y démosle un estilo único.
@@ -189,39 +195,45 @@
         </div>
 
         <!--Proceso de reffki-->
-        <div class="container-fluid mt-2" id="contenedor-proceso">
+        <div class="container-fluid mt-2">
             <div class="px-5 text-center">
-                <div class="row justify-content-around">
-                    <h1 class="fw-bold">El proceso de REFFKI films</h1>
-                    <!--Narrativa-->
-                    <div class="col-md-4 mb-2 px-1">
-                        <i id="icons-p" class="bi bi-file-earmark-slides"></i><h2>Pre-producción</h2>
-                        <p class="fs-5"> Durante la preproducción es cuando se toman las grandes decisiones y se preparan los recursos clave. 
-                            Mapeamos tu historia con storyboards y un guión, y nos preparamos para el rodaje con casting, 
-                            búsqueda de locaciones, vestuario y más.
+                <h1 class="fw-bold">El proceso de REFFKI films</h1>
+                <div class="row" id="seccion-proceso">
+                    
+                    <div class="col-md-4 mb-2 px-2">
+                        <img src="/images/pre-produccion.jpg" class="img-fluid" alt="Pre">
+                        <h2 class="py-2">Pre-producción</h2>
+                        <p class="fs-5"> Durante la preproducción se toman las grandes decisiones y se preparan los recursos clave.
+                             Creamos una historia con storyboards y un guión, y nos preparamos para el rodaje con casting, 
+                             búsqueda de locaciones, vestuario y más.
                         </p>
                     </div>
-                    <!--Comerciales-->
-                    <div class="col-md-4 mb-2 px-1">
-                        <i id="icons-p" class="bi bi-camera-reels"></i><h2>Producción</h2>
-                        <p class="fs-5"> ¡Luces, cámara, acción! No importa cuán elaborado sea su video, nuestro equipo de producción viene 
-                            listo para arrasar el día de producción, y hacemos nuestro mejor esfuerzo en cada escena.
+                   
+                    <div class="col-md-4 mb-2 px-2">
+                        <img src="/images/produccion.jpg" class="img-fluid" alt="Produccion">
+                        <h2 class="py-2">Producción</h2>
+                        <p class="fs-5"> ¡Luces, cámara, acción! Sobre el rodaje, su ejecución y logística. Para filmar cualquier 
+                            producción Reffki hace de su conocimiento que pondrá todas sus fuerzas creativas, técnicas y humanas, 
+                            para que el producto audiovisual sea un éxito y se logre la magia deseada, ya que para esta empresa
+                             es muy valorada la confianza con el cliente.
                         </p>
                     </div>
-                    <!--Videos musicales-->
-                    <div class="col-md-4 mb-2 px-1">
-                        <i id="icons-p" class="bi bi-play-btn"></i><h2>Post-producción</h2>
-                        <p class="fs-5"> En la fase de postproducción, nuestros magos de edición reúnen todas las piezas de su video y combinan 
-                            efectos especiales, gráficos, música y mezcla de sonido para garantizar que el corte final sea impecable.</p>
+                  
+                    <div class="col-md-4 mb-2 px-2">
+                        <img src="/images/post-prod.jpg" class="img-fluid" alt="Post">
+                        <h2 class="py-2">Post-producción</h2>
+                        <p class="fs-5"> En la etapa final, nuestros magos del montaje y la edición reúne todas las piezas, 
+                            trabajan la corrección de color, efectos especiales, gráficos, música y mezcla de sonido para garantizar
+                             que el corte final sea impecable.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-         <!--marcas con las que han colaborado-->
+         <!--Clientes-->
          <div class="container-fluid text-center bg-white">
             <div class="container">
-                 <h1 class="text-dark fw-bold">Empresas con las que hemos colaborado</h1>
+                 <h1 class="text-dark fw-bold pt-3">Clientes</h1>
                     <div class="row">
                         <div class="col-md-3 mx-auto mb-4">
                             <img id="applegate" class="img-responsive" src="images/applegate_logo.png">
@@ -278,6 +290,11 @@
                         forman parte de la competencia mexicana de ficción en FICM & Shorts México y documental en Zanate film festival
                     </p>
                     <a id="boton-cortos" class="btn btn-outline-light btn-lg my-4" href="/narrativa.html#lobo">Ver trailer</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <img src="/images/awards.png" id="awards" class="img-fluid" alt="awards">
                 </div>
             </div>
         </div>
@@ -346,33 +363,48 @@
             <h1>Todo está en los numeros</h1>
             <div class="row pt-5">
                 <div class="col-md">
-                    <h1>250+</h1>
+                    <h1 class="num timer count-title count-number" data-to="250" data-speed="5000">250</h1>
                     <p>Clientes</p>
                 </div>
                 <div class="col-md">
-                    <h1>7+</h1>
+                    <h1 class="num timer count-title count-number" data-to="7" data-speed="5000">7</h1>
                     <p>Años en el negocio</p>
                 </div>
                 <div class="col-md">
-                    <h1>400+</h1>
+                    <h1 class="num timer count-title count-number" data-to="400" data-speed="5000">400</h1>
                     <p>Videos producidos</p>
                 </div>
             </div>
         </div>
 
-        <!--Imagen con texto y boton-->
-        <div id="contenedor-final" class="container-fluid">
-            <img class="img-fluid" src="/images/final-de-pag.jpg" alt="imagen">
-            <div id="texto-final" class="text-center">
-                <h1>¿Listo para cumplir tu sueño?</h1>
-                <a id="boton-final" class="fs-3 btn btn-outline-light btn-lg mt-4" href="/contactenos.php">Contáctenos</a>
+         <!--Boton de Whatsapp-->
+         <a href="https://wa.me/523221350108?text=Hola%20quisiera%20saber%20mas%20información%20de%20REFFKI" id="whatsapp" target="_blank"> 
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <!--carrusel con texto-->
+        <div id="contenedor-portada" class="container-fluid mt-4">
+            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                  <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="/images/final-de-pag.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="7000">
+                    <img src="/images/final-de-pag-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+                </div>
+              </div>
+
+            <div id="texto-imagen" class="text-center">
+                <h2 class="fw-normal">¿Listo para cumplir tu sueño?</h2>
+                <a id="boton" class="btn btn-outline-light btn-lg mt-2" href="/contactenos.php">Contáctenos</a>
             </div>
         </div>
 
-        <!--Boton de Whatsapp-->
-        <a href="https://wa.me/523221350108?text=Hola%20quisiera%20saber%20mas%20información%20de%20REFFKI" id="whatsapp" target="_blank"> 
-            <i class="bi bi-whatsapp"></i>
-        </a>
+    
 
         <!-- Footer de la pagina -->
         <footer class="page-footer">
@@ -435,6 +467,7 @@
     <!--JS de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
-    <script src="/js/index.js" type="text/javascript"></script>
+    <script src="/js/animation.js" type="text/javascript"></script>
+  
 </body>
 </html>

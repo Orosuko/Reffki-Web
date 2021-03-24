@@ -44,7 +44,7 @@
     
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/contactenos.css">
+        <link rel="stylesheet" href="/css/contactenos.css">
         <!-- Iconos de Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
@@ -69,23 +69,20 @@
                         <!-- Logo Reffki -->
                         <img src="images/logo.png" alt="" width="55" height="45">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
     
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link"  href="/index.html">HOME</a>
+                                <a class="nav-link"  href="/index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/narrativa.html">STORYTELLING</a>
+                                <a class="nav-link" href="/narrativa.html">FILMS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/comerciales.html">PUBLICIDAD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/music.html">VIDEOCLIPS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/galeria.html">GALERÍA</a>
@@ -95,6 +92,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">CONTÁCTENOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/music.html">REFFKI MUSIC</a>
                             </li>
                         </ul>
                     </div>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="col-md-6 pt-2">
                         <h2>Contacto</h2>
-                        <h4 class="fw-normal pt-2"><i class="bi bi-telephone-fill"></i> Telefono: 322-135-0108</h4>
+                        <h4 class="fw-normal pt-2"><i class="bi bi-telephone-fill"></i> Telefono:+52 322-135-0108</h4>
                         <h4 class="fw-normal pt-2"><i class="bi bi-envelope-fill"></i> Correo: reffkifilms@gmail.com</h4>
                     </div>
                 </div>
@@ -122,11 +122,17 @@
                 <div class="container">
                     <div class="row mt-5">
 
-                        <div class="col-md-6" id="form-anchor">
+                        <!--Imagen al lado de formulario-->
+                        <div class="col-sm-6 order-sm-1" id="form-anchor">
+                            <img id="foto-form" class="img-responsive" src="/images/foto-formulario.jpg" alt="Foto">
+                        </div>
 
-                        <?php
-                         if($message_sent):
-                        ?>
+                        <!--form-->
+                        <div class="col-sm-6 order-sm-12 mt-3">
+                            
+                            <?php
+                                if($message_sent):
+                            ?>
 
                         <h2 class="my-2 text-center">¡Gracias! Nos comunicaremos contigo lo mas pronto posible</h2>
 
@@ -178,11 +184,6 @@
                             <?php
                             endif;
                             ?>
-                        </div>
-
-                        <!--Imagen al lado de formulario-->
-                        <div class="col-md-6 mt-3">
-                            <img id="foto-form" class="img-responsive" src="/images/foto-formulario.jpg" alt="Foto">
                         </div>
 
                       </div>
