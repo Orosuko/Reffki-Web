@@ -173,7 +173,7 @@ color: rgba( 255, 255, 255, 0.85);
 @media (max-width: 768px){
     
     #contenedor-portada #texto-imagen  h2{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .caption h2{
@@ -186,5 +186,9 @@ color: rgba( 255, 255, 255, 0.85);
         position: absolute;
         width: 100%;
         top: 45%;
+    }
+
+    #boton{
+        font-size: 0.75rem;
     }
 }

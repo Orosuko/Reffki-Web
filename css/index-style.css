@@ -25,6 +25,13 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px;
  }
 
+ .row, .col-12, .col-sm-6{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+     margin-right: 0px !important;
+     margin-left:0px !important ;
+ }
+
 .navbar-brand {
     padding-left: 3%;
 }
@@ -371,13 +378,17 @@ footer{
         }
 
         #contenedor-portada #texto-imagen h2{
-            font-size: 1.3rem;
+            font-size: 1rem;
         }
     
         #texto-imagen{
             position: absolute;
             width: 100%;
             top: 35%;
+        }
+
+        #boton{
+            font-size: 0.75rem;
         }
 
         
